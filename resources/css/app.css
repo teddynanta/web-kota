@@ -2,3 +2,18 @@
 @tailwind components;
 @tailwind utilities; */
 @import "bootstrap/dist/css/bootstrap.min.css";
+
+/* Make the banner span the full width of the viewport */
+.banner {
+  position: relative;
+  width: 100%;
+  height: 100vh;  /* Full viewport height */
+  background-image: url('../../public/storage/img/banner.png');  /* Add your banner image URL */
+  background-size: cover;
+  background-position: center;
+  color: white;  /* Text color for visibility */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
